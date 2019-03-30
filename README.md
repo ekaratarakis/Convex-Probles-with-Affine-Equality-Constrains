@@ -20,3 +20,8 @@ Then we use the above x0 to implement the Newton algorithm for finding a feasibl
 Now, we notice that not only the output from the CVX solution method but also the output from Newton's method converge to a feasible point x0. Of course, there are some deviation but we can ignore it.
 
 ![image Outcome_1](https://github.com/ekaratarakis/Convex-Probles-with-Affine-Equality-Constrains/blob/master/Images/outcome_1.jpg)
+
+## Solving the Dual Problem
+Now, its time to solve the dual problem of the problem above again using the CVX. We notice that the solution of the dual problem is identical with the solution of the primal problem, a result that was expected.
+
+![image Outcome_2](https://github.com/ekaratarakis/Convex-Probles-with-Affine-Equality-Constrains/blob/master/Images/outcome_2.jpg)
